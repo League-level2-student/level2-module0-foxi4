@@ -32,7 +32,7 @@ public class _00_ArrayCheatSheet {
 		
 		//6. make an array of 50 integers
 		double[] integers = new double[50];
-		//7. use a for loop to make every value of the integer array a random number (from 0-50?) im assuming so
+		//7. use a for loop to make every value of the integer array a random number | (from 0-50?) im assuming so
 		Random random = new Random();
 		for(int i=0;i<integers.length;i++) {
 		integers[i] = random.nextInt(50);
@@ -45,11 +45,14 @@ public class _00_ArrayCheatSheet {
 		      min = integers[i];
 		   if (integers[i] > max)
 		      max = integers[i];
+		   System.out.print(integers[i] + " ");
 		}
 		System.out.println(min);
 
 		//9 print the entire array to see if step 8 was correct
-		//System.out.println(integers); --> ends up printing a bunch of gibberish.
+		
+		 //done above
 		//10. print the largest number in the array.
-	}
+		System.out.println(max);
+	}	
 }
